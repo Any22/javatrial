@@ -8,7 +8,7 @@ public class ThisReferenceExample {
     }
     public static void main(String[] args) {
         ThisReferenceExample thisReferenceExample = new ThisReferenceExample();
-        //Anonymous inner class new Process() or object
+        //Anonymous inner class new Process() or object it can be replaced by lambda expression
         thisReferenceExample.doProcess(10, new Process() {
             public void process(int i) {
 
